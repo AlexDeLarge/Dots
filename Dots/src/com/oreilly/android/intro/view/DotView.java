@@ -16,8 +16,8 @@ public class DotView extends View {
 	public DotView(Context context, Dots dots) {
 		super(context);
 		this.dots = dots;
-		setMinimumWidth(180);
-		setMinimumHeight(200);
+		setMinimumWidth(470);
+		setMinimumHeight(500);
 		setFocusable(true);
 	}
 	

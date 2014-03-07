@@ -48,6 +48,13 @@ public class TouchMe extends Activity {
 					makeDot(dotModel, dotView, Color.GREEN);
 				} });
 		
+		((Button) findViewById(R.id.button3)).setOnClickListener(
+				new Button.OnClickListener() {
+					@Override 
+					public void onClick(View v) {
+						makeDot(dotModel, dotView, Color.BLUE);
+					} });
+		
 		final EditText tb1 = (EditText) findViewById(R.id.text1);
 		final EditText tb2 = (EditText) findViewById(R.id.text2);
 		
