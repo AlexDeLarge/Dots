@@ -1,6 +1,6 @@
 package com.oreilly.android.intro.view;
 
-import com.oreilly.android.intro.Dots;
+import com.oreilly.android.intro.model.Dots;
 
 import android.content.Context;
 import android.view.View;
