@@ -3,8 +3,6 @@
 /gen
 /bin
 /assets
-/.classpath
-/.project
 /AndroidManifest.xml
 /project.properties
 /proguard-project.txt
